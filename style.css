@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.header-part {
+    padding: 20px 0;
+}
+
+.logo a {
+	text-decoration: none;
+	padding: 10px 0;
+	font-size: 34px;
+	/* color: #010; */
+	font-weight: ;
+	font-weight: 600;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* defult css  */
+.width {
+    width: 1270px;
+    margin: auto;
+}
+.logo {
+    float: left;
+    width: 30%;
+}
+.menu {
+    float: right;
+    width: 70%;
+    text-align: center;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(12, 9, 9);
+     font-size: 20px;
+
+}
+.menu ul li a:hover{}
+.baner {
+    background: url(./pexels-anna-shvets-5324853.jpg) no-repeat top center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.baner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+}
+.baner h1{
+   
+}
+/* .baner h1:after{
+    content: "";
+    background-color: crimson;
+    color: #fff;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease-in-out;
+
+
+}
+.baner:hover h1{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: left ;
+    background-color: aqua;
+
+
+}
+.baner:hover::after{
+    width: 100%;
+}
+.baner h3{
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: right ;
+    transition: all 1s ease;
+    width: 300px;
+    margin: auto;
+    margin: 10px auto;
+
+}
+.baner h3:after{
+    content: "";
+    background-color: crimson;
+    color: #fff;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all .5s ease-in-out;
+
+
+}
+.baner:hover h3{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+    transform-origin: right;
+    background-color: aqua;
+}
+.baner:hover::after{
+    width: 100%;
+} */
+.button {
+}
+
+
+.baner h1 {
+	font-size: 67px;
+	font-weight: 900;
+	text-transform: uppercase;
+	word-spacing: 0.3rem;
+}
+.baner h3 {
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.button a {
+	background: #4473d9;
+	text-decoration: none;
+	padding: 14px 25px;
+	color: #fff;
+	border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+.button a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all .4s ease-in-out;
+    background-color: crimson;
+    z-index: -1;
+}
+.button a:hover::after{
+    width: 100%;
+}
+.section {
+    margin-top: 20px;
+
+}
+.left-section {
+    float: left;
+    width: 45%;
+}
+.right-section {
+    float: right;
+    width: 45%;
+    margin-top: 17px;
+}
+.right-section-right {}
+.right-section-right h1{}
+.right-section-right h2{}
+.right-section-right h3{}
+.right-section-right h4{}
+.right-section-right p {
+	margin: 30px 0;
+	font-size: 19px;
+}
+
+
+.fotter-section {
+	background-color: #f6f6f6;
+	padding: 70px 0;
+}
+.fotter-section h1 {
+	text-align: center;
+}
+.left-footer {
+    float: left;
+    width: 48%;
+}
+.right-footer {
+    float: right;
+    width: 50%;
+}
+.right-footer input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+button{
+    padding: 10px 15px;
+    background-color: crimson;
+    color: #fff;
+}
+.right-footer input::placeholder{
+    color:rgb(80, 68, 68);
+    /* margin: 0 auto;
+    display: block;
+    text-align: center; */
+    margin-right: 10px;
+    display: inline-block;
+    background-color: cornsilk;
+    padding: 0 10px;
+    
+}
